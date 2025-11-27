@@ -1,0 +1,133 @@
+{
+    "patterns": [
+        {
+            "name": "meter to bill",
+            "keywords": [
+                "meter to bill",
+                "meter-to-bill"
+            ],
+            "description": "Meter to Bill related issues"
+        },
+        {
+            "name": "data dump",
+            "keywords": [
+                "data dump"
+            ],
+            "description": "Data Dump related issues"
+        },
+        {
+            "name": "remediation hold",
+            "keywords": [
+                "remediation hold",
+                "remediation-hold"
+            ],
+            "description": "Remediation Hold related issues"
+        },
+        {
+            "name": "account status",
+            "keywords": [
+                "account status"
+            ],
+            "description": "Account Status related issues"
+        },
+        {
+            "name": "missing consumption",
+            "keywords": [
+                "missing consumption"
+            ],
+            "description": "Missing Consumption related issues"
+        }
+    ],
+    "analytical_keywords": [
+        "how many",
+        "count",
+        "total",
+        "sum",
+        "average",
+        "list all",
+        "show me all",
+        "find all",
+        "get all",
+        "filter",
+        "in october",
+        "in september",
+        "in january",
+        "in february",
+        "in march",
+        "in april",
+        "in may",
+        "in june",
+        "in july",
+        "in august",
+        "in november",
+        "in december",
+        "created in",
+        "updated in",
+        "during",
+        "between",
+        "from",
+        "to"
+    ],
+    "recency_keywords": [
+        "most recent",
+        "latest",
+        "newest",
+        "last",
+        "recent"
+    ],
+    "type_filters": {
+        "jira": {
+            "keywords": [
+                "jira",
+                "ticket"
+            ],
+            "match_terms": [
+                "jira",
+                "ticket"
+            ]
+        },
+        "script": {
+            "keywords": [
+                "db script",
+                "database script",
+                "sql"
+            ],
+            "match_terms": [
+                "script",
+                "sql",
+                "delete"
+            ]
+        }
+    },
+    "keyword_filters": [
+        {
+            "name": "call note",
+            "keywords": [
+                "call note",
+                "callnote"
+            ]
+        }
+    ],
+    "action_filters": [
+        {
+            "name": "delete",
+            "keywords": [
+                "delete"
+            ]
+        }
+    ],
+    "months": {
+        "january": "01",
+        "february": "02",
+        "march": "03",
+        "april": "04",
+        "may": "05",
+        "june": "06",
+        "july": "07",
+        "august": "08",
+        "september": "09",
+        "october": "10",
+        "november": "11",
+        "december": "12"
+    }
+}
